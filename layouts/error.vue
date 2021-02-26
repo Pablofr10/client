@@ -1,13 +1,11 @@
 <template>
   <div>
-    My product
+    <PageNotFound />
   </div>
 </template>
 
 <script>
-export default {
-  layout: "no-nav"
-};
+export default {};
 </script>
 
 <style scoped></style>
