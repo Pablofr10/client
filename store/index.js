@@ -235,3 +235,10 @@ export const getters = {
     return state.products.find(product => product.id === Number(id));
   }
 };
+
+export const mutations = {
+  addItem(state, id) {
+    let item = state.products.find(product => product.id === Number(id));
+    state.myRentals.push(item);
+  }
+};
